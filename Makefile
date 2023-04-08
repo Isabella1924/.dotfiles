@@ -1,6 +1,6 @@
 all: clean linux
 
-linux:
+linux: clean
 	./bin/linux.sh
 
 clean: 
